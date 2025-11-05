@@ -31,6 +31,7 @@ const EventCard = ({ title, image, slug, location, date, time }: props) => {
         <p>{location}</p>
 
         <div className="datetime">
+
           <div>
             <Image
               src='/icons/calendar.svg'
@@ -40,6 +41,7 @@ const EventCard = ({ title, image, slug, location, date, time }: props) => {
             />
             <p>{date}</p>
           </div>
+
           <div>
             <Image
               src='/icons/clock.svg'
@@ -49,6 +51,7 @@ const EventCard = ({ title, image, slug, location, date, time }: props) => {
             />
             <p>{time}</p>
           </div>
+
         </div>
       </div>
 
