@@ -80,6 +80,7 @@ const EventDetails = async ({ params }: { params: Promise<string> }) => {
       </div>
 
       <div className="details">
+        
         {/*    Left Side - Event Content */}
         <div className="content">
           <Image src={image} alt="Event Banner" width={800} height={800} className="banner" />
